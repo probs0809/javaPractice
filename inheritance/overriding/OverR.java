@@ -1,5 +1,4 @@
 
-
 class ClassOne {
     void display(){
         System.out.println("Hello World from ClassOne");

@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FileMain",
+            "request": "launch",
+            "mainClass": "FileHandling.FileMain.FileMain",
+            "projectName": "javapractical_adebfc53"
+        }
+    ]
+}

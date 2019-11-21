@@ -1,4 +1,4 @@
-
+//Abstract class must always be inherited
 /*
         - NO FUCKS GIVEN 
         - DON'T THANK ME, JUST BUY ME BUDWEISER 
@@ -10,35 +10,15 @@
       /        \     Facebook : 'Prabodh Mayekar'
      /__________\    GITHUB: probs0809
 */
-class one 
-{ 
-	public void hello() 
-	{ 
-		System.out.print("Hello"); 
-	} 
+abstract class Base { 
+	abstract void display(); 
 } 
-
-class two extends one 
-{ 
-	public void world() 
-	{ 
-		System.out.println(" World"); 
-	} 
+class Derived extends Base { 
+	void display() { System.out.println("Derived display"); } 
 } 
-
-class three extends one 
-{ 
-	
-} 
- 
-public class Heirarchical
-{ 
-	public static void main(String[] args) 
-	{ 
-		three g = new three(); 
-		g.hello(); 
-		two t = new two(); 
-		t.world(); 
-		g.hello(); 
+class AbsMain { 
+	public static void main(String args[]) {  
+		Base b = new Derived(); 
+		b.display(); 
 	} 
 } 

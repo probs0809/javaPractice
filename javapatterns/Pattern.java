@@ -10,35 +10,13 @@
       /        \     Facebook : 'Prabodh Mayekar'
      /__________\    GITHUB: probs0809
 */
-class one 
-{ 
-	public void hello() 
-	{ 
-		System.out.print("Hello"); 
-	} 
-} 
-
-class two extends one 
-{ 
-	public void world() 
-	{ 
-		System.out.println(" World"); 
-	} 
-} 
-
-class three extends one 
-{ 
-	
-} 
- 
-public class Heirarchical
-{ 
-	public static void main(String[] args) 
-	{ 
-		three g = new three(); 
-		g.hello(); 
-		two t = new two(); 
-		t.world(); 
-		g.hello(); 
-	} 
-} 
+public class Pattern{
+    public void forward(int x, String toPrnt){
+        for(int i = 0; i <= x; i++){
+            for(int j = 0; j<=i; j++){
+                System.out.print(toPrnt);
+            }
+            System.out.println();
+        }
+    }
+}

@@ -1,3 +1,4 @@
+package javapatterns;
 
 /*
         - NO FUCKS GIVEN 

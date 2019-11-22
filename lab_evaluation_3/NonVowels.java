@@ -1,3 +1,5 @@
+package lab_evaluation_3;
+
 /*
         - NO FUCKS GIVEN 
         - DON'T THANK ME, JUST BUY ME BUDWEISER 

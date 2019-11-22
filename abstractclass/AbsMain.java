@@ -1,3 +1,5 @@
+package abstractclass;
+
 //Abstract class must always be inherited
 /*
         - NO FUCKS GIVEN 

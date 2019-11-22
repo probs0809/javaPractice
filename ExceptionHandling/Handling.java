@@ -9,7 +9,7 @@
       /        \     Facebook : 'Prabodh Mayekar'
      /__________\    GITHUB: probs0809
 */
-package ExceptionHandling;
+package exceptionhandling;
 
 public class Handling{
     public static void main(String[] args) {

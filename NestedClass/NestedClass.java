@@ -1,4 +1,4 @@
-
+package nestedclass;
 
 class OuterClass{
     int x = 10;
@@ -13,12 +13,20 @@ class OuterClass{
             System.out.println(x + y);
         }
     }
+
+    static class StaticInnerClass{
+        void Sum(int x,int y){
+            System.out.println(x + y);
+        }
+    }
 }
 
 public class NestedClass{
     public static void main(String[] args) {
         OuterClass o = new OuterClass();
         OuterClass.InnerClass i = o.new InnerClass();
+        OuterClass.StaticInnerClass oi = new OuterClass.StaticInnerClass();
+        oi.Sum(9123, 123);
         i.Sum(100, 10000);
     }
 }

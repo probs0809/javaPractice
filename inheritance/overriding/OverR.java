@@ -1,3 +1,5 @@
+package inheritance.overriding;
+
 /*
         - NO FUCKS GIVEN 
         - DON'T THANK ME, JUST BUY ME BUDWEISER 

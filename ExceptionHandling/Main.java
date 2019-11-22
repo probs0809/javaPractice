@@ -9,7 +9,7 @@
       /        \     Facebook : 'Prabodh Mayekar'
      /__________\    GITHUB: probs0809
 */
-package ExceptionHandling;
+package exceptionhandling;
 
 import java.util.ArrayList;
 

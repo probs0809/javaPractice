@@ -1,4 +1,4 @@
-
+package inheritance.heirarchical;
 /*
         - NO FUCKS GIVEN 
         - DON'T THANK ME, JUST BUY ME BUDWEISER 
